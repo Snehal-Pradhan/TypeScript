@@ -33,3 +33,21 @@ function getBulbasaur() {
     return new Pokemon("bulbasaur", "grass", 1);
 }
 console.log(getBulbasaur());
+// types
+/*
+boolean
+int
+bigint
+null
+string
+symbol
+undefined
+these primitive types can be used in the interface.
+*/
+/* there are a few more
+any
+unknown
+never
+void
+
+*/ 
