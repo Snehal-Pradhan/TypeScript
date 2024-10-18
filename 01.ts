@@ -72,3 +72,10 @@ function PrintPokemon(Pokemon:Pokemon){
 }
 
 PrintPokemon(charmander)
+
+
+function getBulbasaur(): Pokemon {
+    return new Pokemon('bulbasaur','grass',1)
+}
+
+console.log(getBulbasaur());

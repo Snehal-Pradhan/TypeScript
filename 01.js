@@ -48,3 +48,7 @@ function PrintPokemon(Pokemon) {
     console.log(Pokemon.type);
 }
 PrintPokemon(charmander);
+function getBulbasaur() {
+    return new Pokemon('bulbasaur', 'grass', 1);
+}
+console.log(getBulbasaur());
