@@ -66,7 +66,7 @@ class Pokemon {
 const charmander : Pokemon = new Pokemon('charmander','fire',9)
 
 function PrintPokemon(Pokemon:Pokemon){
-    console.log(Pokemon.type)
+    console.log(Pokemon.name)
     console.log(Pokemon.id)
     console.log(Pokemon.type)
 }
