@@ -1,4 +1,6 @@
-{
+{ "scripts":{
+  "start 01":"tsc && node ./dist/01.js"
+},
   "devDependencies": {
     "typescript": "^5.6.3"
   }
