@@ -1,3 +1,4 @@
+"use strict";
 // intro
 /*
 \same as JS but adds additional feature.
@@ -7,7 +8,7 @@
  basically reduces the chances of a getting a bug
  */
 // Types by inference.
-var helloWorld = "HelloWorld";
+let helloWorld = "HelloWorld";
 /*
 basically what happens,is TS keeps the type of a variable in check.
 in the above case of helloWorld,it is intrinscically able to understand that it is a string.
@@ -28,20 +29,19 @@ but in case of complex programming, diff design patterns like dynamic prog. etc
  *
  */
 //  Use of interface to determine the type.
-var user = {
+const user = {
     name: "Somu",
     id: 0,
 };
 ;
-var Pokemon = /** @class */ (function () {
-    function Pokemon(name, type, id) {
+class Pokemon {
+    constructor(name, type, id) {
         this.id = id;
         this.name = name;
         this.type = type;
     }
-    return Pokemon;
-}());
-var charmander = new Pokemon('charmander', 'fire', 9);
+}
+const charmander = new Pokemon('charmander', 'fire', 9);
 function PrintPokemon(Pokemon) {
     console.log(Pokemon.name);
     console.log(Pokemon.id);
